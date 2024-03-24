@@ -19,6 +19,7 @@ const Presentation: React.FC = () => {
         }}
       >
         <iframe
+          title="Unique"
           loading="lazy"
           style={{
             position: 'absolute',

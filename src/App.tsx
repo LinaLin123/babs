@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { Select, MenuItem, OutlinedInput, Typography, Box, Divider, Grid, Container, FormControlLabel, Link, Alert, } from "@mui/material";
+import { Select, MenuItem, OutlinedInput, Typography, Box, Divider, Grid, Container, FormControlLabel, Alert, } from "@mui/material";
 import { ThemeProvider } from "@mui/material";
 import { darkTheme, lightTheme } from "./Styles/Theme";
 import { MaterialUISwitch } from "./Styles/MaterialUISwitch";
@@ -227,9 +227,9 @@ function App() {
                           displayType="text"
                         />
                       </Typography>
-                      <Link onClick={handleCompareClick}>
+                      <Box onClick={handleCompareClick}>
                         <img src="Compare.svg" alt="Compare" />
-                      </Link>
+                      </Box>
                     </Box>
                   </>
                 )}
